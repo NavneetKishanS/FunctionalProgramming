@@ -1,0 +1,302 @@
+.comp 920 000111010010000
+.start __endTerm2_todo_Start
+.depend "_SystemEnumStrict" "20211222162233"
+.depend "_SystemStrictLists" "20211222162233"
+.depend "StdStrictLists" "20211222162231"
+.depend "_SystemEnum" "20211222162228"
+.depend "StdEnum" "20211222162231"
+.depend "StdMisc" "20211222162231"
+.depend "StdFunctions" "20211222162231"
+.depend "StdCharList" "20211222162235"
+.depend "StdTuple" "20211222162233"
+.depend "StdOrdList" "20211222162235"
+.depend "StdList" "20211222162231"
+.depend "StdClass" "20211222162233"
+.depend "StdFile" "20211222162231"
+.depend "StdString" "20211222162235"
+.depend "_SystemArray" "20211222162231"
+.depend "StdArray" "20211222162233"
+.depend "StdChar" "20211222162228"
+.depend "StdReal" "20211222162231"
+.depend "StdInt" "20211222162231"
+.depend "StdOverloaded" "20211222162231"
+.depend "StdBool" "20211222162231"
+.depend "StdEnv" "20211222162231"
+.module m_endTerm2_todo "endTerm2_todo" "20231213133231"
+.endinfo
+.impmod _system
+.implab _cycle_in_spine
+.implab _type_error
+.implab _hnf
+.impdesc e_system_dind
+.implab e_system_nind e_system_eaind
+.impdesc e_system_dif
+.implab e_system_nif e_system_eaif
+.implab e_system_sif
+.impdesc e_system_dAP
+.implab e_system_nAP e_system_eaAP
+.implab e_system_sAP
+.impdesc ARRAY
+.impdesc _Nil
+.impdesc _Cons
+.impdesc _Conss
+.implab n_Conss ea_Conss
+.impdesc _Consts
+.implab n_Consts ea_Consts
+.impdesc _Conssts
+.implab n_Conssts ea_Conssts
+.impdesc _Tuple
+.impdesc d_S.1
+.implab n_S.1 ea_S.1
+.impdesc d_S.2
+.implab n_S.2 ea_S.2
+.impdesc d_S.3
+.implab n_S.3 ea_S.3
+.impdesc d_S.4
+.implab n_S.4 ea_S.4
+.impdesc d_S.5
+.implab n_S.5 ea_S.5
+.impdesc d_S.6
+.implab n_S.6 ea_S.6
+.implab _driver
+.impmod StdOrdList
+.implab e_StdOrdList_ssort;9
+.impmod StdList
+.implab e_StdList_sreverse
+.implab e_StdList_slength;47
+.implab e_StdList_ssum;72
+.impmod StdInt
+.implab e_StdInt_s/;10
+.desc0 d13 0 "Finance"
+.desc0 d14 1 "CS"
+.desc0 d15 2 "Math"
+.desc0 d16 3 "Physics"
+.desc0 d17 4 "Economy"
+.desc0 d18 5 "Linguistics"
+.desc d24 _hnf _add_arg 3 0 "Node"
+.desc d25 _hnf _hnf 0 0 "Leaf"
+.record r26 aa 2 0 "Student"
+.descs d28 n28 _ 2 0 "Student.grades"
+.n -4 d28 ea28
+.o 1 0
+n28
+	push_node _cycle_in_spine 1
+.o 2 0
+ea28
+	jsr_eval 0
+	repl_r_args_a 2 0 2 1
+	jmp_eval_upd
+.desc0 d30 0 "Red"
+.desc0 d31 1 "Yellow"
+.desc0 d32 2 "Green"
+.desc0 d33 3 "Blue"
+.desc0 d34 4 "Purple"
+.desc0 d35 5 "Orange"
+.desc0 d36 6 "Violet"
+.desc0 d37 7 "Amber"
+.desc0 d38 8 "Teal"
+.desc0 d39 9 "Vermilion"
+.desc0 d40 10 "Magenta"
+.desc0 d41 11 "Chartreuse"
+.export __endTerm2_todo_Start
+.o 0 0
+__endTerm2_todo_Start
+	build _ 0 n5
+.d 1 0
+	jmp _driver
+.n 0 _ ea5
+.o 1 0
+n5
+	push_node _cycle_in_spine 0
+.o 1 0
+ea5
+.o 1 0
+s5
+	buildh _Nil 0
+	build _ 0 n3
+	buildh _Cons 2
+	build _ 0 n2
+	buildh _Cons 2
+	build _ 0 n1
+	buildh _Cons 2
+.d 2 0
+	jmp s4
+.n 0 _
+.o 1 0
+n1
+	push_node _cycle_in_spine 0
+.o 0 0
+ea1
+	buildh _Nil 0
+	buildI 3
+	buildh _Cons 2
+	buildI 2
+	buildh _Cons 2
+	buildI 1
+	buildh _Cons 2
+	buildAC "A"
+	buildh ARRAY 1
+	fill_r r26 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n2
+	push_node _cycle_in_spine 0
+.o 0 0
+ea2
+	buildh _Nil 0
+	buildI 4
+	buildh _Cons 2
+	buildI 3
+	buildh _Cons 2
+	buildI 2
+	buildh _Cons 2
+	buildI 1
+	buildh _Cons 2
+	buildAC "B"
+	buildh ARRAY 1
+	fill_r r26 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n3
+	push_node _cycle_in_spine 0
+.o 0 0
+ea3
+	buildh _Nil 0
+	buildI 5
+	buildh _Cons 2
+	buildI 4
+	buildh _Cons 2
+	buildI 3
+	buildh _Cons 2
+	buildI 2
+	buildh _Cons 2
+	buildI 1
+	buildh _Cons 2
+	buildAC "C"
+	buildh ARRAY 1
+	fill_r r26 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.o 2 0
+s4
+	create
+	push_a 1
+	update_a 1 2
+	updatepop_a 0 1
+.d 2 0
+	jsr s7
+.o 1 0
+	create
+	push_a 1
+	update_a 1 2
+	update_a 0 1
+	pop_a 1
+.d 2 0
+	jsr s6
+.o 1 0
+	create
+	push_a 1
+	update_a 1 2
+	update_a 0 1
+	pop_a 1
+.d 2 0
+	jsr e_StdOrdList_ssort;9
+.o 1 0
+.d 2 0
+	jmp e_StdList_sreverse
+.n 1 _ ea6
+.o 1 0
+n6
+	push_node _cycle_in_spine 1
+.o 2 0
+ea6
+	jsr_eval 0
+.o 2 0
+s6
+	push_a 0
+	updatepop_a 0 1
+.d 2 0
+	jmp s9
+.o 2 0
+s9
+	eq_desc _Cons 2 0
+	jmp_true case.1
+	jmp case.2
+case.1
+	repl_args 2 2
+	push_a 1
+	build _ 1 n6
+	push_a 1
+	build _ 1 n46
+	fillh _Cons 2 4
+	pop_a 2
+.d 1 0
+	rtn
+case.2
+	fillh _Nil 0 1
+	pop_a 1
+.d 1 0
+	rtn
+.n 1 _ ea46
+.o 1 0
+n46
+	push_node _cycle_in_spine 1
+.o 2 0
+ea46
+.o 2 0
+s46
+	push_a 0
+	jsr_eval 0
+.d 1 0
+	jsr e_StdList_slength;47
+.o 0 1 i
+	push_a 0
+	updatepop_a 0 1
+.d 1 0
+	jsr e_StdList_ssum;72
+.o 0 1 i
+	divI
+	fillI_b 0 0
+	pop_b 1
+.d 1 0
+	rtn
+.n 1 _ ea7
+.o 1 0
+n7
+	push_node _cycle_in_spine 1
+.o 2 0
+ea7
+	jsr_eval 0
+.o 2 0
+s7
+	push_a 0
+	updatepop_a 0 1
+.d 2 0
+	jmp s8
+.o 2 0
+s8
+	eq_desc _Cons 2 0
+	jmp_true case.3
+	jmp case.4
+case.3
+	repl_args 2 2
+	push_a 1
+	build _ 1 n7
+	push_a 1
+	build d28 -4 n28
+	fillh _Cons 2 4
+	pop_a 2
+.d 1 0
+	rtn
+case.4
+	fillh _Nil 0 1
+	pop_a 1
+.d 1 0
+	rtn

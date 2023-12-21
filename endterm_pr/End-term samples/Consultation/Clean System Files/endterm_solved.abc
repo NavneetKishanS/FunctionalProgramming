@@ -1,0 +1,705 @@
+.comp 920 000111010010000
+.start __endterm_solved_Start
+.depend "_SystemEnumStrict" "20211222162233"
+.depend "_SystemStrictLists" "20211222162233"
+.depend "StdStrictLists" "20211222162231"
+.depend "_SystemEnum" "20211222162228"
+.depend "StdEnum" "20211222162231"
+.depend "StdMisc" "20211222162231"
+.depend "StdFunctions" "20211222162231"
+.depend "StdCharList" "20211222162235"
+.depend "StdTuple" "20211222162233"
+.depend "StdOrdList" "20211222162235"
+.depend "StdList" "20211222162231"
+.depend "StdClass" "20211222162233"
+.depend "StdFile" "20211222162231"
+.depend "StdString" "20211222162235"
+.depend "_SystemArray" "20211222162231"
+.depend "StdArray" "20211222162233"
+.depend "StdChar" "20211222162228"
+.depend "StdReal" "20211222162231"
+.depend "StdInt" "20211222162231"
+.depend "StdOverloaded" "20211222162231"
+.depend "StdBool" "20211222162231"
+.depend "StdEnv" "20211222162231"
+.module m_endterm_solved "endterm_solved" "20231213194042"
+.endinfo
+.impmod _system
+.implab _cycle_in_spine
+.implab _type_error
+.implab _hnf
+.impdesc e_system_dind
+.implab e_system_nind e_system_eaind
+.impdesc e_system_dif
+.implab e_system_nif e_system_eaif
+.implab e_system_sif
+.impdesc e_system_dAP
+.implab e_system_nAP e_system_eaAP
+.implab e_system_sAP
+.impdesc ARRAY
+.impdesc _Nil
+.impdesc _Cons
+.impdesc _Conss
+.implab n_Conss ea_Conss
+.impdesc _Consts
+.implab n_Consts ea_Consts
+.impdesc _Conssts
+.implab n_Conssts ea_Conssts
+.impdesc _Tuple
+.impdesc d_S.1
+.implab n_S.1 ea_S.1
+.impdesc d_S.2
+.implab n_S.2 ea_S.2
+.impdesc d_S.3
+.implab n_S.3 ea_S.3
+.impdesc d_S.4
+.implab n_S.4 ea_S.4
+.impdesc d_S.5
+.implab n_S.5 ea_S.5
+.impdesc d_S.6
+.implab n_S.6 ea_S.6
+.implab _driver
+.impmod StdOrdList
+.implab e_StdOrdList_ssort;9
+.impmod StdList
+.implab e_StdList_shd
+.implab e_StdList_stl
+.implab e_StdList_sdropWhile
+.implab e_StdList_stoString;79
+.impmod _SystemArray
+.impmod StdChar
+.implab e_StdChar_s==;18
+.impmod StdInt
+.implab e_StdInt_s+;6
+.implab e_StdInt_s-;7
+.implab e_StdInt_sone;11
+.implab e_StdInt_s==;16
+.implab e_StdInt_s<;17
+.impmod StdBool
+.implab e_StdBool_snot
+.desc0 d22 0 "Bus"
+.desc0 d23 1 "Tram"
+.desc0 d24 2 "Metro"
+.desc0 d26 0 "IK"
+.desc0 d27 1 "PPK"
+.desc0 d28 2 "GTK"
+.desc0 d29 3 "AJK"
+.desc0 d30 4 "TOK"
+.desc0 d31 5 "TTK"
+.desc0 d32 6 "TATK"
+.desc0 d33 7 "BGGYK"
+.desc0 d39 0 "Mercury"
+.desc0 d40 1 "Venus"
+.desc0 d41 2 "Mars"
+.desc0 d42 3 "Jupiter"
+.desc0 d43 4 "Saturn"
+.desc d49 _hnf _add_arg 3 0 "NodeT"
+.desc d50 _hnf _hnf 0 0 "LeafT"
+.desc d52 _hnf _add_arg 4 0 "Node"
+.desc d53 _hnf _hnf 0 0 "Leaf"
+.desc d55 _hnf _add_arg 3 0 "Node2"
+.desc d56 _hnf _hnf 0 0 "Leaf2"
+.desc d58 _hnf _add_arg 1 0 "Just"
+.desc d59 _hnf _hnf 0 0 "Nothing"
+.record r60 aa 2 0 "EngagedPerson"
+.descs d61 n61 _ 1 0 "EngagedPerson.fullName"
+.n -4 d61
+.o 1 0
+n61
+	push_node _cycle_in_spine 1
+	jsr_eval 0
+	repl_r_args_a 2 0 1 1
+	jsr_eval 0
+	fill_a 0 1
+	pop_a 1
+.d 1 0
+	rtn
+.descs d62 n62 _ 2 0 "EngagedPerson.yearOfMarriage"
+.n -4 d62
+.o 1 0
+n62
+	push_node _cycle_in_spine 1
+	jsr_eval 0
+	repl_r_args_a 2 0 2 1
+	jsr_eval 0
+	fill_a 0 1
+	pop_a 1
+.d 1 0
+	rtn
+.export __endterm_solved_Start
+.o 0 0
+__endterm_solved_Start
+	build _ 0 n10
+.d 1 0
+	jmp _driver
+.n 0 _
+.o 1 0
+n10
+	push_node _cycle_in_spine 0
+.d 0 0
+	jsr ea10
+.o 1 0
+	fillh ARRAY 1 1
+.d 1 0
+	rtn
+.o 0 0
+ea10
+.o 0 0
+s10
+	build _ 0 n6
+	build _ 0 n5
+	buildh _Tuple 2
+	build _ 0 n4
+	build _ 0 n3
+	buildh _Tuple 2
+	build _ 0 n2
+	build _ 0 n1
+	buildh _Tuple 2
+	pushI 3
+	create_array_ _ 1 0
+	pushI 2
+	update _ 1 0
+	pushI 1
+	update _ 1 0
+	pushI 0
+	update _ 1 0
+.d 1 0
+	jmp s9
+.n 0 _
+.o 1 0
+n1
+	push_node _cycle_in_spine 0
+.o 0 0
+ea1
+	buildI 1999
+	buildAC "Homer Simpson"
+	buildh ARRAY 1
+	fill_r r60 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n2
+	push_node _cycle_in_spine 0
+.o 0 0
+ea2
+	buildI 1999
+	buildAC "Marge Simpson"
+	buildh ARRAY 1
+	fill_r r60 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n3
+	push_node _cycle_in_spine 0
+.o 0 0
+ea3
+	buildI 2031
+	buildAC "Mike Krabappel"
+	buildh ARRAY 1
+	fill_r r60 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n4
+	push_node _cycle_in_spine 0
+.o 0 0
+ea4
+	buildI 2031
+	buildAC "Edna Krabappel"
+	buildh ARRAY 1
+	fill_r r60 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n5
+	push_node _cycle_in_spine 0
+.o 0 0
+ea5
+	buildI 2000
+	buildAC "Leon Kennedy"
+	buildh ARRAY 1
+	fill_r r60 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.n 0 _
+.o 1 0
+n6
+	push_node _cycle_in_spine 0
+.o 0 0
+ea6
+	buildI 2000
+	buildAC "Ada Kennedy"
+	buildh ARRAY 1
+	fill_r r60 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.o 1 0
+s9
+	push_a 0
+	push_a 0
+	push_arraysize _ 1 0
+	pushI 1
+	push_b 1
+	subI
+	create
+	push_a 1
+	buildh ARRAY 1
+	pushI 0
+	push_a 3
+	buildh ARRAY 1
+	update_b 1 2
+	updatepop_b 0 1
+	update_a 2 4
+	update_a 1 3
+	updatepop_a 0 2
+.d 3 2 ii
+	jsr s14
+.o 1 0
+.d 1 0
+	jsr e_StdList_shd
+.o 1 0
+	push_array 0
+	updatepop_a 0 1
+.d 1 0
+	rtn
+.o 3 2 ii
+s14
+	push_b 0
+	push_b 2
+	ltI
+	notB
+	push_b 2
+	push_a 0
+	push_b 2
+	push_a 2
+	push_b 2
+	update_b 2 3
+	update_b 1 2
+	update_b 0 1
+	pop_b 1
+	update_a 1 3
+	updatepop_a 0 2
+	update_b 2 4
+	update_b 1 3
+	updatepop_b 0 2
+.d 3 3 bii
+	jmp s18
+.o 3 3 bii
+s18
+	eqB_b TRUE 0
+	jmp_true case.1
+	jmp case.2
+case.1
+	push_a 1
+	jsr_eval 0
+	push_array 0
+	updatepop_a 0 1
+	push_a 1
+	jsr_eval 0
+	push_array 0
+	updatepop_a 0 1
+	push_b 1
+	updatepop_b 0 1
+	buildh _Nil 0
+	update_a 0 4
+	pop_a 1
+	push_a 0
+	select _ 1 0
+	jsr_eval 0
+	push_args 0 2 2
+	jsr_eval 0
+	push_r_args 0 2 0
+	update_a 3 4
+	update_a 1 3
+	update_a 0 2
+	pop_a 2
+	push_a 5
+	push_b 1
+	push_b 1
+	push_a 5
+	update_a 1 6
+	update_a 2 1
+	update_a 3 2
+	update_a 4 3
+	update_a 5 4
+	update_a 0 5
+	pop_a 1
+	update_a 5 7
+	update_a 4 6
+	update_a 3 5
+	update_a 2 4
+	update_a 1 3
+	updatepop_a 0 2
+	update_b 1 3
+	updatepop_b 0 2
+.d 7 2 ii
+	jmp s17
+case.2
+	fillh _Nil 0 2
+	pop_a 2
+	pop_b 3
+.d 1 0
+	rtn
+.o 7 2 ii
+s17
+case.3
+	push_a 1
+	jsr_eval 0
+	pushI_a 2
+	pop_a 1
+	push_a 4
+.d 1 0
+	jsr s8
+.o 0 1 i
+	eqI
+	jmp_false else.5
+	push_a 3
+	buildI_b 1
+	buildI_b 0
+	push_a 7
+	build _ 4 n66
+	push_a 1
+	build _ 1 n7
+	fillh _Cons 2 8
+	pop_a 6
+	pop_b 2
+.d 1 0
+	rtn
+else.5
+	jmp case.4
+case.4
+	pushI 1
+	push_b 1
+	addI
+	push_a 5
+	push_b 2
+	push_a 5
+	buildh ARRAY 1
+	push_b 1
+	update_b 1 2
+	update_b 0 1
+	pop_b 1
+	update_a 1 7
+	updatepop_a 0 6
+	update_b 1 3
+	updatepop_b 0 2
+.d 3 2 ii
+	jmp s14
+.n 4 _ ea66
+.o 1 0
+n66
+	push_node _cycle_in_spine 4
+.o 5 0
+ea66
+.o 5 0
+s66
+	push_a 2
+	jsr_eval 0
+	pushI_a 3
+	pop_a 1
+	pushI 1
+	push_a 1
+	jsr_eval 0
+	pushI_a 2
+	pop_a 1
+	addI
+	push_a 3
+	buildh ARRAY 1
+	push_a 1
+	buildh ARRAY 1
+	update_a 1 5
+	updatepop_a 0 4
+.d 3 2 ii
+	jmp s14
+.o 1 0
+s8
+	push_a 0
+	updatepop_a 0 1
+	push_a 0
+	push_arraysize _ 1 0
+	pushI 1
+	push_b 1
+	subI
+	create
+	push_a 1
+	buildh ARRAY 1
+	pushI 0
+	update_b 1 2
+	updatepop_b 0 1
+	update_a 1 2
+	updatepop_a 0 1
+.d 2 2 ii
+	jsr s13
+.o 1 0
+	create
+	push_a 1
+	update_a 1 2
+	update_a 0 1
+	pop_a 1
+.d 2 0
+	jsr e_StdOrdList_ssort;9
+.o 1 0
+.d 1 0
+	jsr e_StdList_shd
+.o 1 0
+	pushI_a 0
+	pop_a 1
+.d 0 1 i
+	rtn
+.o 2 2 ii
+s13
+	push_b 0
+	push_b 2
+	ltI
+	notB
+	push_b 2
+	push_b 2
+	push_a 0
+	push_b 2
+	update_b 2 3
+	update_b 1 2
+	update_b 0 1
+	pop_b 1
+	updatepop_a 0 1
+	update_b 2 4
+	update_b 1 3
+	updatepop_b 0 2
+.d 2 3 bii
+	jmp s16
+.o 2 3 bii
+s16
+	eqB_b TRUE 0
+	jmp_true case.6
+	jmp case.7
+case.6
+	push_a 0
+	jsr_eval 0
+	push_array 0
+	updatepop_a 0 1
+	push_b 1
+	updatepop_b 0 1
+	push_a 0
+	select _ 1 0
+	jsr_eval 0
+	push_args 0 2 2
+	update_a 1 2
+	update_a 0 1
+	pop_a 1
+	push_a 3
+	push_b 1
+	push_b 1
+	push_a 3
+	update_a 1 4
+	update_a 2 1
+	update_a 3 2
+	update_a 0 3
+	pop_a 1
+	update_a 3 4
+	update_a 2 3
+	update_a 1 2
+	updatepop_a 0 1
+	update_b 1 3
+	updatepop_b 0 2
+.d 5 2 ii
+	jmp s15
+case.7
+	fillh _Nil 0 1
+	pop_a 1
+	pop_b 3
+.d 1 0
+	rtn
+.o 5 2 ii
+s15
+case.8
+	push_a 2
+	buildI_b 1
+	buildI_b 0
+	build _ 3 n68
+	push_a 1
+	build d62 -4 n62
+	fillh _Cons 2 6
+	pop_a 4
+	pop_b 2
+.d 1 0
+	rtn
+case.9
+	pushI 1
+	push_b 1
+	addI
+	push_a 3
+	push_b 2
+	push_b 1
+	update_b 1 2
+	update_b 0 1
+	pop_b 1
+	updatepop_a 0 4
+	update_b 1 3
+	updatepop_b 0 2
+.d 2 2 ii
+	jmp s13
+.n 3 _ ea68
+.o 1 0
+n68
+	push_node _cycle_in_spine 3
+.o 4 0
+ea68
+.o 4 0
+s68
+	push_a 1
+	jsr_eval 0
+	pushI_a 2
+	pop_a 1
+	pushI 1
+	push_a 0
+	jsr_eval 0
+	pushI_a 1
+	pop_a 1
+	addI
+	push_a 2
+	buildh ARRAY 1
+	updatepop_a 0 3
+.d 2 2 ii
+	jmp s13
+.n 1 _
+.o 1 0
+n7
+	push_node _cycle_in_spine 1
+.d 1 0
+	jsr ea7
+.o 1 0
+	fillh ARRAY 1 1
+.d 1 0
+	rtn
+.o 1 0
+ea7
+	jsr_eval 0
+	push_array 0
+	update_a 0 1
+	pop_a 1
+.o 1 0
+s7
+	push_a 0
+	updatepop_a 0 1
+	push_a 0
+	push_arraysize CHAR 0 1
+	pushI 1
+	push_b 1
+	subI
+	create
+	push_a 1
+	buildh ARRAY 1
+	pushI 0
+	update_b 1 2
+	updatepop_b 0 1
+	update_a 1 2
+	updatepop_a 0 1
+.d 2 2 ii
+	jsr s12
+.o 1 0
+	buildh d11 0
+	create
+	push_a 2
+	update_a 1 3
+	update_a 2 1
+	update_a 0 2
+	pop_a 1
+.d 3 0
+	jsr e_StdList_sdropWhile
+.o 1 0
+	create
+	push_a 1
+	update_a 1 2
+	update_a 0 1
+	pop_a 1
+.d 2 0
+	jsr e_StdList_stl
+.o 1 0
+.d 1 0
+	jmp e_StdList_stoString;79
+.desc d11 _hnf l11 1 0 "<lambda>[line:513];45;63"
+.o 2 0
+l11
+	pop_a 1
+.d 1 0
+	jsr ea11
+.o 0 1 b
+	buildB_b 0
+	pop_b 1
+.d 1 0
+	rtn
+.o 1 0
+ea11
+	jsr_eval 0
+	pushC_a 0
+	pop_a 1
+.o 0 1 c
+s11
+	pushC ' '
+	push_b 1
+	eqC
+	updatepop_b 0 1
+	notB
+.d 0 1 b
+	rtn
+.o 2 2 ii
+s12
+	push_b 0
+	push_b 2
+	ltI
+	notB
+	jmp_false else.10
+	push_b 0
+	push_array 0
+	updatepop_a 0 1
+	push_a 0
+	select CHAR 0 1
+	push_a 0
+	buildh ARRAY 1
+	push_a 0
+	push_b 2
+	push_b 2
+	build_u _ 1 2 n67
+	buildC_b 0
+	fillh _Cons 2 4
+	pop_a 2
+	pop_b 3
+.d 1 0
+	rtn
+else.10
+	fillh _Nil 0 1
+	pop_a 1
+	pop_b 2
+.d 1 0
+	rtn
+.nu 1 2 _ _
+.o 1 0
+n67
+	push_node_u _cycle_in_spine 1 2
+.o 2 2 ii
+ea67
+.o 2 2 ii
+s67
+	pushI 1
+	push_b 1
+	addI
+	push_a 0
+	push_b 2
+	push_b 1
+	update_b 1 2
+	update_b 0 1
+	pop_b 1
+	updatepop_a 0 1
+	update_b 1 3
+	updatepop_b 0 2
+.d 2 2 ii
+	jmp s12
