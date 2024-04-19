@@ -2,8 +2,7 @@ module HW3
 import StdEnv
 
 /*
-Please write your neptun code here: JZD5GY
-submitted by : Navneet Kishan Srinivasan - JZD5GY
+Please write your neptun code here: 
 
 Your submission should not have any errors when running the code.
 You'll receive a total of 100 points when you successfully solve both problems,
