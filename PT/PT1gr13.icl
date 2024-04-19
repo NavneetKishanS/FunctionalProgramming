@@ -1,8 +1,8 @@
 module PT1gr13
 import StdEnv
 
-// submitted by : NAVNEET KISHAN SRINIVASAN - JZD5GY
-/* Your neptun code :  JZD5GY      */
+
+/* Your neptun code :        */
 
 /*1- Write a function findBMICategory that takes a Real representing the BMI of a person and returns a String representing the BMI category of the person based on the given table:
 -------------------------------------
