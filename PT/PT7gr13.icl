@@ -4,7 +4,7 @@ import StdEnv
 :: Tree a = Node a (Tree a) (Tree a) 
           | Leaf
          
-/*  WRITE NAME AND NEPTUN !!! HERE: NAVNEET KISHAN SRINIVASAN - JZD5GY
+/*  WRITE NAME AND NEPTUN !!! HERE: 
 	Given a tree with positive values up to 999, check if each node is less than both its 
 	left child and its right child. A leaf is bigger then any node value.
 					 10
