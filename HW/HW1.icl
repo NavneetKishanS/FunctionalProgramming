@@ -1,10 +1,9 @@
 module HW1
 import StdEnv
 
-//Submitted by: SRINIVASAN NAVNEET KISHAN
 
 /*
-Please write your neptun code here: JZD5GY
+Please write your neptun code here: 
 Your submission should not have any errors when running the code.
 You'll receive a total of 100 points when you successfully solve both problems,
 with 50 points awarded for each.
