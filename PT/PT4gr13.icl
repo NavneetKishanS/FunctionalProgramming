@@ -2,7 +2,7 @@ module PT4gr13
 import StdEnv
 
 /*
-Please write your name and neptun code here: NAVNEET KISHAN SRINIVASAN - JZD5GY
+Please write your name and neptun code here: 
 
 In our evaluation process, we maintain a strict policy against plagiarism
 and the use of high-performance answers in ChatGPT responses.
