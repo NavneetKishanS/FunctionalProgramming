@@ -2,7 +2,7 @@ module PT2gr13
 
 import StdEnv
 
-/* Your NAME and NEPTUN code :  navneet kishan srinivasan -JZD5GY      */
+/* Your NAME and NEPTUN code :  */
 
 /* 1. Write a function to count the number of zero digits of a number. */
 
