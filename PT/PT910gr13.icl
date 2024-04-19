@@ -1,7 +1,7 @@
 module PT910gr13
 import StdEnv
 
-// Write your name and neptun code NAVNEET JZD5GY
+// Write your name and neptun code 
 
 :: Major = CS | Math | Physics | Linguistics
 :: Course = {cname::String, major :: Major, credits:: Int, max_student:: Int}
