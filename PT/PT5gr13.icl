@@ -3,7 +3,7 @@ import StdEnv
 
 
 /* 
-WRITE NAME AND NEPTUN: NAVNEET KISHAN SRINIVASAN - JZD5GY
+WRITE NAME AND NEPTUN: 
 
    Given the list of tuples, where each tuple
  * contains name and the points of the student.
